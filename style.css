@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 24px;
+  background-color: rgba(244, 234, 222, 0.904);
+}
+.content {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 8%;
+  height: 2400px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.image {
+  background-image: url('image-omelette.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 10px 10px 10px 10px;
+}
+.box1 {
+  width: 90%;
+  height: 220px;
+  margin-left: 5%;
+}
+.box2 {
+  width: 90%;
+  height: 270px;
+  margin-left: 5%;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgba(140, 53, 222, 0.358);
+}
+.box2 h2{
+  color: rgba(160, 68, 203, 0.76);
+  margin-left: 15px;
+}
+.box3 {
+  width: 90%;
+  height: 300px;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.box3 h3 {
+  margin-left: 5px;
+    color: rgba(147, 44, 44, 0.799);
+}
+.box3 li {
+  margin-bottom: 10px;
+}
+.box4 {
+  width: 90%;
+  height: 420px;
+  margin-left: 5%;
+}
+.box4 h3 {
+color: rgba(147, 44, 44, 0.799);
+}
+.box5 {
+  width: 90%;
+  height: 420px;
+  margin-left: 5%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box5 h3  {
+  margin-right: 250px ;
+  flex-direction: column;
+  flex-wrap: wrap;
+  color: rgba(147, 44, 44, 0.799);
+}
+.box5right {
+width: 50%;
+height: 270px;
+}
+.box5left {
+width: 50%;
+height: 270px;
+}
+.box5right p {
+  color: rgba(147, 44, 44, 0.799);
+}
+@media screen and (max-width:720px) {
+  body {
+    margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  background-color: rgba(244, 234, 222, 0.904);
+  }
+  .content {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 8%;
+  height: 2000px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.image {
+  background-image: url('image-omelette.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  border-radius: 10px 10px 10px 10px;
+}
+.box1 {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+}
+.box1 p {
+  font-size: 17px;
+}
+.box1 h1 {
+  font-size: 20px;
+}
+.box1 br {
+  display: none;
+}
+.box2 {
+  width: 90%;
+  height: 200px;
+  margin-left: 5%;
+  border-radius: 4px 4px 4px 4px;
+  background-color: rgba(140, 53, 222, 0.358);
+}
+.box2 h2{
+  color: rgba(160, 68, 203, 0.76);
+  margin-left: 15px;
+}
+.box3 {
+  width: 90%;
+  height: 300px;
+  margin-left: 5%;
+  margin-top: 0;
+}
+.box3 h3 {
+  margin-left: 5px;
+  color: rgba(147, 44, 44, 0.799);
+}
+.box4 {
+  width: 90%;
+  height: 600px;
+  margin-left: 5%;
+}
+.box4 h3 {
+color: rgba(147, 44, 44, 0.799);
+margin-top: -15px;
+}
+.box4 li {
+  font-size: 15px;
+}
+.box5 {
+  width: 90%;
+  height: 420px;
+  margin-left: 5%;
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box5 h3  {
+  margin-right: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  color: rgba(147, 44, 44, 0.799);
+}
+.box5right {
+width: 50%;
+height: 270px;
+margin-top: -5px;
+}
+.box5left {
+width: 50%;
+margin-top: -5px;
+height: 270px;
+}
+.box5right p {
+  color: rgba(147, 44, 44, 0.799);
+}
+}
